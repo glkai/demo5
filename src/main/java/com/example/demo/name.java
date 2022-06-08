@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
 @AllArgsConstructor
 public class name {
     private String name;
-    
+    private Integer age;
 }
