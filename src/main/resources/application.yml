@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/atguigudb?characterEncoding=utf-8&useSSL=true&serverTimezone=GMT
+    username: root
+    password: 325311
+    type: com.zaxxer.hikari.HikariDataSource
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      table-prefix: t_
+      id-type: auto
+
